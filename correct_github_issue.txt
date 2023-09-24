@@ -1,0 +1,27 @@
+curl --request GET \ --url "https://github.com/qinze2017" \--header "Authorization: Bearer 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" \--header "X-GitHub-Api-Version: 2022-11-28"
+
+ssh -vT git@github.com
+
+ssh-agent -s
+
+powerShell:
+Get-Service ssh-agent
+
+Get-Service ssh-agent | Select StartType
+
+start-ssh-agent
+
+
+git remote -v
+
+git remote set-url origin git://github.com/qinze2017/algo.git
+
+git config --global url.https://github.com/.insteadOf git://github.com/
+
+git push -u -f origin main
+
+
+https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github
+
+find windows Service
+Open SSH Authentication Agent : Manuel
