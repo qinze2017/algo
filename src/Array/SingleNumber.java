@@ -1,8 +1,4 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+package Array;
 
 /**
  * @program: java_algo
