@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 /**
  * @program: java_algo
- * @description: Given two strings s and t, return true if t is an anagram of s, and false otherwise.  An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+ * @description: Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+ * An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+ * typically using all the original letters exactly once.
  * @author: Ze QIN
  * @create: 2023-09-26 17:37
  **/
@@ -47,8 +49,8 @@ public class ValidAnagram {
 
     public static void main (String[] args) {
 
-        String s = "rat";
-        String t = "car";
+        String s = "listen";
+        String t = "silent";
 
         ValidAnagram va = new ValidAnagram();
         System.out.print(va.isAnagram(s,t));

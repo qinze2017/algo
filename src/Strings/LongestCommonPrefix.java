@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 /**
  * @program: java_algo
- * @description: Write a function to find the longest common prefix string amongst an array of strings.  If there is no common prefix, return an empty string "".
+ * @description: Write a function to find the longest common prefix string amongst an array of strings.
+ * If there is no common prefix, return an empty string "".
  * @author: Ze QIN
  * @create: 2023-09-28 17:18
  **/

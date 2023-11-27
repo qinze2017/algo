@@ -2,7 +2,9 @@ package Strings;
 
 /**
  * @program: java_algo
- * @description: Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+ * @description: Given two strings needle and haystack,
+ * return the index of the first occurrence of needle in haystack,
+ * or -1 if needle is not part of haystack.
  * @author: Ze QIN
  * @create: 2023-09-28 09:32
  **/
